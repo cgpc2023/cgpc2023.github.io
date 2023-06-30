@@ -401,6 +401,30 @@ button {
     padding-top: 40px;
 }
 
+.read_bt_center {
+    width: 170px;
+    float: center;
+    margin:0 auto;
+}
+
+
+.read_bt_center a {
+    width: 100%;
+    float: left;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #05141f;
+    text-align: center;
+    padding: 10px 0px;
+    text-transform: uppercase;
+    border: 1px solid #05141f;
+}
+.read_bt_center a:hover {
+    color: #000;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
 .read_bt {
     width: 170px;
     float: left;
@@ -503,6 +527,54 @@ button {
     float: left;
     padding-bottom: 90px;
 }
+.title_white{
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #ffffff;
+    text-align: center;
+    font-weight: 600;
+  }
+.title_1{
+    width: 100%;
+    float: left;
+    font-size: 26px;
+    color: #5ff9e9;
+    text-align: center;
+    font-weight: 600;
+  }
+.title_2{
+    width: 100%;
+    float: left;
+    font-size: 10px;
+    color: #a0a0a0;
+    text-align: center;
+    font-weight: 600;
+}
+.title_3{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #030000;
+    text-align: center;
+    font-weight: 600;
+}
+.name_1{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #545455;
+    text-align: center;
+    font-weight: 600;
+}
+.name_2{
+    width: 100%;
+    float: left;
+    font-size: 20px;
+    color: #5ff9e9;
+    text-align: center;
+    font-weight: 600;
+}
 .software_taital{
   width: 100%;
   float: left;
@@ -518,10 +590,18 @@ button {
   color: #545455;
   text-align: center;
 }
+.software_text_2{
+    width: 100%;
+    margin: 0 auto;
+    font-size: 20px;
+    color: #545455;
+    text-align: center;
+  }
 .software_section_2{
   width: 100%;
   float: left;
 }
+
 .image_6{
   width: 100%;
   float: left;
@@ -675,6 +755,7 @@ textarea#comment::placeholder {
     color: #fffcf4;
     padding-top: 10px;
     margin: 0px;
+
 }
 .mail_text {
     width: 100%;
@@ -763,8 +844,6 @@ input.mail_text::placeholder {
 .margin_top_0{
   margin-top: 0px;
 }
-
-
 
 
 
