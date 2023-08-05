@@ -332,7 +332,7 @@ button {
     height: auto;
 }
 .menu_main{ 
-    width: 70%; 
+    width: 90%; 
     float: left;
 }
 .menu_main ul{ 
@@ -845,9 +845,48 @@ input.mail_text::placeholder {
   margin-top: 0px;
 }
 
+table {
+    border-collapse: collapse; /* 表格边框合并 */
+    width: 100%; /* 表格宽度 */
+    font-size: 14px; /* 表格字体大小 */
+}
+th{
+    border: 1px solid #ccc; /* 单元格边框 */
+    padding: 10px; /* 单元格内边距 */
+    text-align:center; /* 水平居中 */
+}
 
+td {
+    border: 1px solid #ccc; /* 单元格边框 */
+    padding: 10px; /* 单元格内边距 */
+    text-align:center; /* 水平居中 */
+}
+tr:nth-child(2n) {
+    background-color: #f2f2f2; /* 偶数行背景色 */
+}
+th {
+    background-color: #e0e0e0; /* 表头背景色 */
+    font-weight:bold; /* 表头加粗 */
+}
 
+.image-container{
+    float:center;
+    text-align:center;
+}
 
+.image-box {
+    width: 50%;
+    float: left;
+
+    }
+
+.clear:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
 
 
 
