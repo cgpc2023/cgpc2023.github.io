@@ -535,6 +535,15 @@ button {
     text-align: center;
     font-weight: 600;
   }
+
+.title_0{
+    width: 100%;
+    float: left;
+    font-size: 30px;
+    color: #000000;
+    text-align: center;
+    font-weight: 600;
+}
 .title_1{
     width: 100%;
     float: left;
@@ -557,6 +566,14 @@ button {
     font-size: 20px;
     color: #030000;
     text-align: center;
+    font-weight: 600;
+}
+.title_4{
+    width: 100%;
+    float: left;
+    font-size: 18px;
+    color: #545455;
+    text-align: left;
     font-weight: 600;
 }
 .name_1{
@@ -872,6 +889,7 @@ th {
 .image-container{
     float:center;
     text-align:center;
+    
 }
 
 .image-box {
@@ -888,6 +906,10 @@ th {
     visibility: hidden;
 }
 
-
+.image-one {
+    width: 100%;
+    float: center;
+    text-align:center;
+    }
 
 
