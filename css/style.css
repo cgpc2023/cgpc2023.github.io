@@ -334,7 +334,14 @@ button {
 .menu_main{ 
     width: 90%; 
     float: left;
+    position: relative; /* 为菜单添加定位上下文 */
+    z-index: 999; /* 设置一个较高的z-index值 */
 }
+
+.menu_main > ul > li {
+    position: relative; /* 为li设置定位 */
+}
+
 .menu_main ul{ 
     margin: 0px;
     padding: 0px;
@@ -358,6 +365,35 @@ button {
     color: #ffffff; 
     background-color: #c9e5fb;   
 }
+
+
+/* 设置二级菜单绝对定位，并隐藏 */
+.menu_main > ul > li > ul {
+    position: absolute;
+    display: none;
+}
+/* 鼠标放在一级菜单上，显示二级菜单 */
+.menu_main > ul > li:hover ul {
+    display: block;
+}
+/* 二级菜单 */
+.menu_main > ul > li > ul > li > a {
+    width: 100%; 
+    height: auto;
+    text-align:center;
+
+    background-color: #05141f;
+    text-align: center;
+
+    display: block;
+
+}
+/* 设置二级菜单的li的样式 */
+.menu_main > ul > li > ul > li {
+    float: none;
+}
+
+
 .menu_main_1{ 
     width: 30%; 
     float: left;
@@ -919,5 +955,4 @@ th {
     float: center;
     text-align:center;
     }
-
 
